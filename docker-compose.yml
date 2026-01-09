@@ -1,0 +1,10 @@
+version: '3.8'
+
+services:
+  whisper:
+    build: .
+    image: whisper-streamlit:latest
+    container_name: whisper-streamlit
+    ports:
+      - "8501:8501"
+    restart: unless-stopped
