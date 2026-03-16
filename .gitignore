@@ -19,6 +19,7 @@ outputs/
 *.txt
 *.srt
 !requirements.txt
+!packages.txt
 
 # Sistema
 .DS_Store
