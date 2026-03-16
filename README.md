@@ -77,6 +77,7 @@ streamlit run app.py
 - Los modelos más grandes requieren más RAM y tiempo de procesamiento
 - Se recomienda usar GPU para modelos medium y large
 - Tamaño máximo de archivo: 200MB (configurable)
+- La dependencia correcta es `openai-whisper`; no agregues el paquete `whisper` al entorno.
 
 ## 🐛 Solución de Problemas
 
