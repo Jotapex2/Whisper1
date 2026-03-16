@@ -44,6 +44,12 @@ pip install -r requirements.txt
 streamlit run app.py
 ```
 
+### Despliegue en Streamlit Community Cloud
+
+- Usa `packages.txt` para instalar `ffmpeg`.
+- Despliega con Python 3.12 desde `Advanced settings`.
+- A fecha del 16 de marzo de 2026, `openai-whisper` falla al construirse en Python 3.13 en Community Cloud por un error relacionado con `pkg_resources`.
+
 ## 🎯 Uso
 
 1. Abre tu navegador en `http://localhost:8501`
